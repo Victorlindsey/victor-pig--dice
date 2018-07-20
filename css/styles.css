@@ -42,3 +42,15 @@ h3{
 .row{
   margin-left: 0;
 }
+h5{
+  font-size: 30px;
+  color: purple;
+  font-family: cursive;
+  font-style: italic;
+}
+h4{
+  font-size: 30px;
+  color: purple;
+  font-family: fantasy;
+  font-style: oblique;
+}

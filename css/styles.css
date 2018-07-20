@@ -27,3 +27,15 @@ h2{
 .scar{
   background-image: url("/home/victor/Desktop/pig-dice/images/images.jpeg");
 }
+p{
+  font-size: 42px;
+  color: red;
+  font-family: cursive;
+  font-style: italic;
+}
+h3{
+  font-size: 40px;
+  color: orange;
+  font-family: cursive;
+  font-style: italic;
+}

@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <meta charset="utf-8">
-    <title>PIG DICE GAMES</title>
-  </head>
-  <body>
-      <h1>LET'S PLAY PIG DICE
-THE EXTREMELY FUN AND ENJOYABLE GAME
-</h1>
-      <div class="row">
-        <div class="cool">
-        <div class="col-md-6">
-          <div class="well">
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <meta charset="utf-8">
+  <title>PIG DICE GAMES</title>
+</head>
+<body>
+  <h1>LET'S PLAY PIG DICE
+    THE EXTREMELY FUN AND ENJOYABLE GAME
+  </h1>
+  <div class="row">
+    <div class="cool">
+      <div class="col-md-6">
+        <div class="well">
           <h2>Rules of Pig Dice</h2>
           <ul>
             <li>Two dice: two dice are rolled instead of one</li>
-              <li>Any number of dice ("Hog" variation): the player rolls only once per turn with an arbitrary number of dice.</li>
-                <li>  6 is bad: a roll of 6 is treated as a roll of 1.</li>
+            <li>Any number of dice ("Hog" variation): the player rolls only once per turn with an arbitrary number of dice.</li>
+            <li>  6 is bad: a roll of 6 is treated as a roll of 1.</li>
+          </div>
         </div>
       </div>
-    </div>
-  <div class="stalin">
-    <div class="col-md-6">
-      <div class="scar">
-        <h3>About pig Dice</h3>
-        <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
+      <div class="stalin">
+        <div class="col-md-6">
+          <div class="scar">
+            <h3>About pig Dice</h3>
+            <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
 
-    If the player rolls a 1, they score nothing and it becomes the next player's turn.
-    If the player rolls any other number, it is added to their turn total and the player's turn continues.
-    If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
+              If the player rolls a 1, they score nothing and it becomes the next player's turn.
+              If the player rolls any other number, it is added to their turn total and the player's turn continues.
+              If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 
-The first player to score 100 or more points wins.</p>
+              The first player to score 100 or more points wins.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="start-menu container">
-     <div class="jumbotron">
-         <form id="player-1">
-           <div class="form-group">
-             <label for="player1Name">Player 1 Name:</label>
-             <input required class="player1Name form-control" type="text">
-           </div>
-         </form>
-         <form id="player-2">
-           <div class="form-group">
-             <label for="player2Name">Player 2 Name:</label>
-             <input required class="player2Name form-control" type="text">
-           </div>
-         </form>
-         <button id="start" class="btn-info btn">Start</button>
-     </div>
-</div>
-<div class="row">
-  <div class="vic">
-    <div class="col-md-5">
-<h4>Player one</h4>
-<br>
-<br>
-<input type="text" id="input1"><br>
-<br>
-<br>
-<button type="submit" id="roll">Roll</button>
-<button type="submit" id="hold">Hold</button>
-<div id="score1"></div>
-</div>
-</div>
+      <div class="start-menu container">
+        <div class="jumbotron">
+          <form id="player-1">
+            <div class="form-group">
+              <label for="player1Name">Player 1 Name:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">Player 2 Name:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+          <button id="start" class="btn-info btn">Start</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="vic">
+          <div class="col-md-5">
+            <h4>Player one</h4>
+            <br>
+            <br>
+            <input type="text" id="input1"><br>
+            <br>
+            <br>
+            <button type="submit" id="Roll">Roll</button>
+            <button type="submit" id="Hold">Hold</button>
+            <div id="score1"></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <header>vs</header>
+        </div>
+        <div class="musa">
+          <div class="col-md-5">
+            <h5>Player two</h5>
+            <br>
+            <br>
+            <input type="text" id="input2"><br>
+            <br>
+            <br>
+            <button type="submit" id="roll">Roll</button>
+            <button type="submit" id="hold">Hold</button>
+            <ul>
+              <li id="score2"></li></ul>
+            </div>
+          </div>
 
-  </body>
-</html>
+
+        </body>
+        </html>

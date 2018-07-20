@@ -7,3 +7,12 @@ text-align: center;
 background-image: url("/home/victor/Desktop/scar/Pig_Dice_1024x1024.JPG");
 height: 350px;
 }
+.well{
+background-image: url("/home/victor/Desktop/pig-dice/images/3D-Cool-Image.jpg");
+}
+li{
+  font-size: 50px;
+  color: red;
+  font-family: cursive;
+  font-style: italic;
+}
